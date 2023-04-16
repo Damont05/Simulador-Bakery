@@ -63,7 +63,7 @@ function takeOrder(){
         }
     }
 }
-//Obtener precio final con IVA, puede ser reutilizada 
+//Obtener IVA
 function getIVA(total,IVA){
     return total*IVA;
 }
