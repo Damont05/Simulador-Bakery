@@ -46,6 +46,7 @@ function takeOrder(){
                 price   = 500;
             }else if(productMenu == option4){
                 alert("GRACIAS POR TU VISITA!");
+                greet();
     break;
             }
         }
