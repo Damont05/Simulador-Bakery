@@ -91,12 +91,12 @@ class Cart {
 
         btnPay.addEventListener("click", () => {
             cartContainer.style.display = "none";
+            listOrder = [];
+            cartCount();
         });
         totalIVA.append(btnPay);
-
     }   
 }
-
 //Obtener pedido de la canasta de compras
 getCart.addEventListener("click", Cart.getOrder);
 
