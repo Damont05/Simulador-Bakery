@@ -1,0 +1,99 @@
+[
+    {
+        "id"      : "1", 
+        "name"  : "Pan Frances", 
+        "price"  : 200,
+        "weight"  : "180 - 200g",
+        "cant"  : 1,
+        "img"  : "https://cuk-it.com/wp-content/uploads/2020/07/thumb03-low-1024x576.jpg"
+    },
+    {
+        "id"  : "2", 
+        "name"  : "Pan Dulce",    
+        "price"  : 500,
+        "weight"  : "6 unidades",
+        "cant" : 1,
+        "img"   : "https://enharinado.com/wp-content/uploads/2017/03/tunjitas.jpg"
+
+    },
+    {
+        "id"  : "3", 
+        "name"  : "Pan de Molde", 
+        "price"  : 600,
+        "weight"  : "paq - 700g",
+        "cant"  : 1,
+        "img"  : "https://media.mykaramelli.com/galeria/recetas/receta-de-pan-de-molde_352_1.jpg"
+    },
+    {
+        "id"  : "4", 
+        "name"  : "Molde Integral", 
+        "price"  : 400,
+        "weight"  : "paq - 450g",
+        "cant"  : 1,
+        "img"  : "https://harinas.monisa.com/wp-content/uploads/2018/08/IntegralWeb.png"
+    },
+    {
+        "id"  : "5", 
+        "name"  : "Brownies",     
+        "price"  : 450,
+        "weight"  : "unidad, 100 - 120g",
+        "cant"  : 1,
+        "img"  : "https://www.pequerecetas.com/wp-content/uploads/2018/09/brownie-de-chocolate-receta.jpg"
+    },
+    {
+        "id"  : "6", 
+        "name"  : "Medialunas",   
+        "price"  : 430,
+        "weight"  : "5 unidades",
+        "cant"  : 1,
+        "img"  : "https://cuk-it.com/wp-content/uploads/2021/06/thumb02-e1624221067478.jpg"
+     },
+    {
+        "id"  : "7", 
+        "name"  : "Empanada",     
+        "price"  : 290,
+        "weight"  : "unidad - 100g",
+        "cant"  : 1,
+        "img"  : "https://cdn.kiwilimon.com/brightcove/7151/7151.jpg"
+    },
+    {
+        "id"  : "8", 
+        "name"  : "Alfajor",      
+        "price"  : 300,
+        "weight"  : "6 unidades",
+        "cant"  : 1,
+        "img"  : "https://www.elmundoeats.com/wp-content/uploads/2021/07/FP2-Argentine-alfajores-on-a-rack-500x500.jpg"
+    },
+    {
+        "id"  : "9", 
+        "name"  : "Magdalenas",   
+        "price"  : 600,
+        "weight"  : "7 unidades",
+        "cant"  : 1,
+        "img"  : "https://www.pequerecetas.com/wp-content/uploads/2012/11/magdalenas.jpg"
+    },
+    {
+        "id"  : "10",
+        "name"  : "Berlines",     
+        "price"  : 300,
+        "weight"  : "unidad - 80g",
+        "cant"  : 1,
+        "img"  : "https://lh3.googleusercontent.com/-D2KE4kAMVkE/YLAB1nwETfI/AAAAAAAAPR0/unz8_hcBeeYCJ5IiPZrWYGZUrE5sx2S1wCLcBGAsYHQ/bolasdefraile123456789.jpg"
+    },
+    {
+        "id"  : "11",
+        "name"  : "Focaccia",     
+        "price"  : 250,
+        "weight"  : "3 unidades",
+        "cant"  : 1,
+        "img"  : "https://www.paulinacocina.net/wp-content/uploads/2020/06/focaccia-2241107-960-720-e1592176339445.jpg"
+    },
+    {
+        "id"  : "12",
+        "name"  : "Ciabatta",     
+        "price"  : 260,
+        "weight"  : "180 - 200g",
+        "cant"  : 1,
+        "img"  : "https://www.comedera.com/wp-content/uploads/2022/02/pan-de-ciabatta.jpg"
+    }
+] 

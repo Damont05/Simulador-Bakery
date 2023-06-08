@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Entreamasados|BAKERY|online</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Type" content="text/html">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <div class="container">
+      <!--Bootstrap css-->
+      <!--<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">     --> 
+      <!--Toastify css-->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+      <!--sweetAlert css-->
+      <link rel="stylesheet" href="sweetalert2.min.css">
+      <!--css principal-->
+      <link rel="stylesheet" href="style.css">
+      <title>Entreamasados|BAKERY|online</title>
+  </head>
+  <body>
 
-      <!--navBar-->
-      <div class="nav-container">
-          <nav class="navbar">
-            <div class="navbar-logo">
-              <!--abajo el logo-->
-            </div>
-            <h1 class="getCart" id="getCart">🧺<span id="cantCart" class="cant-cart"></span></h1>
-          </nav>
-        </div>
-    
-        <!--banner-->
-        <div class="banner">
-          <div class="banner-container">
-            <h1>Entreamasados</h1>
-            <p>Panaderia online, del horno a tu puerta</p>
+    <div class="container">
+
+        <!--navBar-->
+        <div class="nav-container">
+            <nav class="navbar">
+              <div class="navbar-logo">
+                <!--abajo el logo-->
+              </div>
+              <h1 class="getCart" id="getCart">🧺<span id="cantCart" class="cant-cart"></span></h1>
+            </nav>
           </div>
-        </div>
-      <!--content-->
-      <div id="content" class="content-style"></div>
-      <!--cart-container-->
-      <div id="cart-container" class="cart-container"></div>
       
-      
-      <!--script principal-->
-      <script type="text/javascript" src="js/main.js"></script> 
-      <!--carrito-->
-      <script type="text/javascript" src="js/cart.js"></script> 
+          <!--banner-->
+          <div class="banner">
+            <div class="banner-container">
+              <h1>Entreamasados</h1>
+              <p>Panaderia online, del horno a tu puerta</p>
+            </div>
+          </div>
+        <!--content-->
+        <div id="content" class="content-style"></div>
+        <!--cart-container-canasta-->
+        <div id="cart-container" class="cart-container"></div>
+        <!--cart-container-pay-->
+        <div id="container-pay" class="cart-container"></div>
 
-  </div>
+    </div>
 
-</body>
+    <div id="sweetAlert"></div>
+
+    <!--*********INICIO DE SCRIPTS********-->
+    <!--Bootstrap js-->
+     <!--<script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>    -->
+    <!--Toastify js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--sweetAlert js-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--script principal-->
+    <script type="text/javascript" src="js/main.js"></script> 
+    <!--carrito.js externo-->
+    <script type="text/javascript" src="js/Cart.js"></script>
+    <!--pagar.js externo-->
+    <script type="text/javascript" src="js/Pay.js"></script>  
+
+    <!--*********FIN DE SCRIPTS**********-->
+
+  </body>
+
 </html>
 
