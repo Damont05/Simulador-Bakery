@@ -157,6 +157,32 @@ div.navbar-logo img {
     opacity: 0.6;
 }
 
+.pay-button-final{
+  border: none;
+  outline: 0;
+  padding:7px;
+  color: #000000;
+  background-color: #ffeac4;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+  border-radius: 44px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pay-button-final:hover{
+  opacity: 0.6;
+  background-color: #754f07;
+  color: #ffeac4;
+}
+.pay-button-final:active {
+  background-color: #9e5604;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #000000;
+}
+
 .pay-button{
     border: none;
     outline: 0;

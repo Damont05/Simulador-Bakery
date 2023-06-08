@@ -28,10 +28,11 @@ async function showProducts() {
         //json productos
         const url = "./js/products.json"
 
-        //get al json con los productos
+        //get al JSON con los productos con FETCH 
         await fetch(url)
             .then( (res) => res.json())
             .then( (data) => {
+
             //recorriendo array para mostrar contenido, creando nodo hijo
             data.forEach((produc) => {
                 const{id,name,price,weight,cant,img} =  produc;
